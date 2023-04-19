@@ -18,7 +18,7 @@ import com.example.studentsdata.service.StudentService;
 import com.example.studentsdata.models.Student;
 
 @RestController
-@RequestMapping("/clients")
+@RequestMapping("/students")
 public class StudentsController {
     
     @Autowired

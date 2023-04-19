@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.studentsdata.StudentsControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-04-17T19:14:38" hostname="flippy.lan" time="0.014">
+  <properties/>
+  <testcase name="testCreateStudent()" classname="com.example.studentsdata.StudentsControllerTest" time="0.01"/>
+  <testcase name="testUpdateStudent()" classname="com.example.studentsdata.StudentsControllerTest" time="0.0"/>
+  <testcase name="testGetStudents()" classname="com.example.studentsdata.StudentsControllerTest" time="0.0"/>
+  <testcase name="testDeleteStudent()" classname="com.example.studentsdata.StudentsControllerTest" time="0.001"/>
+  <testcase name="testGetStudentById()" classname="com.example.studentsdata.StudentsControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
