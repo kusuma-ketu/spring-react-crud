@@ -1,4 +1,4 @@
-package com.example.studentsdata.models;
+package com.example.clientsdata.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "students")
-public class Student {
+public class Client {
     @Id
     @GeneratedValue
     private Long id;
@@ -16,7 +16,7 @@ public class Student {
     private String name;
     private String email;
 
-    public Student(Long l, String string1, String string2) {
+    public Client(Long l, String string1, String string2) {
         this.id = l;
         this.name = string1;
         this.email = string2;

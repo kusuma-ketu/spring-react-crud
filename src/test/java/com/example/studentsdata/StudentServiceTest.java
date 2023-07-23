@@ -23,10 +23,10 @@ import static org.mockito.Mockito.*;
 public class StudentServiceTest {
 
     @InjectMocks
-    private StudentService studentService;
+    private ClientService studentService;
 
     @Mock
-    private StudentsRepository studentRepository;
+    private ClientRepository studentRepository;
 
     @Test
     public void testGetStudents() {

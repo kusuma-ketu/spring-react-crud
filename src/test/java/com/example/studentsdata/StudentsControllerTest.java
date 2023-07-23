@@ -32,7 +32,7 @@ public class StudentsControllerTest {
     private StudentsController studentsController;
 
     @Mock
-    private StudentService studentService;
+    private ClientService studentService;
 
     @Test
     public void testGetStudents() {

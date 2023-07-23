@@ -1,25 +1,25 @@
-package com.example.studentsdata.service;
-import com.example.studentsdata.models.Student;
-import com.example.studentsdata.repository.StudentsRepository;
+package com.example.clientsdata.service;
+import com.example.clientsdata.models.Client;
+import com.example.clientsdata.repository.ClientRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.studentsdata.repository.StudentsRepository;
+import com.example.clientsdata.repository.ClientRepository;
 
 import java.util.List;
 
 @Service
-public class StudentService {
+public class ClientService {
 
     @Autowired
-    private StudentsRepository studentRepository;
+    private ClientRepository clientRepository;
 
-    public List<Student> getStudents() {
+    public List<Client> getStudents() {
         return studentRepository.findAll();
     }
 
-    public Student getStudentbyID(Long id) {
-        return studentRepository.findById(id).orElse(null);
+    public Client getClientbyID(Long id) {
+        return clientRepository.findById(id).orElse(null);
     }
 
     public Student createStudent(Student student) {
