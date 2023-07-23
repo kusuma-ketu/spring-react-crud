@@ -11,4 +11,4 @@ git clone https://github.com/kusuma-ketu/spring-react-crud.git
 mvn spring-boot: run 
 ```
 
-![UI](/pub/react-clients.png)
+![UI](./pub/react-clients.png)
